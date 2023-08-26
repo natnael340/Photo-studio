@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "posts.apps.PostsConfig",
-    "profiles.apps.ProfilesConfig",
-    "frontend.apps.FrontendConfig",
+    "myblog.posts.apps.PostsConfig",
+    "myblog.profiles.apps.ProfilesConfig",
+    "myblog.frontend.apps.FrontendConfig",
     "rest_framework",
 ]
 
