@@ -1,9 +1,9 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: path.join(__dirname, "myblog/frontend/src", "index.js"),
+  entry: path.join(__dirname, "frontend/src", "index.js"),
   mode: "development",
-  output: { path: path.resolve(__dirname, "myblog/frontend/static/frontend") },
+  output: { path: path.resolve(__dirname, "frontend/static/frontend") },
   module: {
     rules: [
       {
@@ -22,7 +22,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(
         __dirname,
-        "myblog/frontend/static/frontend",
+        "frontend/static/frontend",
         "index.html"
       ),
     }),
